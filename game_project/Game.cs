@@ -39,7 +39,7 @@ class Game : Form
         bl = new Ball();
 
         Point blp = new Point(0, 0);
-        Image bim = Image.FromFile("c:\\kaminari.png");
+        Image bim = Image.FromFile("c:\\momo.png");
 
         bl.Point = blp;
         bl.Image = bim;
@@ -51,7 +51,7 @@ class Game : Form
         ubl = new Ball();
 
         Point ublp = new Point(0, 0);
-        Image ubim = Image.FromFile("c:\\asui.png");
+        Image ubim = Image.FromFile("c:\\hachi.png");
 
         ubl.Point = ublp;
         ubl.Image = ubim;
@@ -63,7 +63,7 @@ class Game : Form
         kbl = new Ball();
 
         Point kblp = new Point(0, 0);
-        Image kbim = Image.FromFile("c:\\todoroki.png");
+        Image kbim = Image.FromFile("c:\\chiikawa.png");
 
         kbl.Point = kblp;
         kbl.Image = kbim;
@@ -76,7 +76,7 @@ class Game : Form
         ct = new Cart();
 
         Point ctp = new Point(this.ClientSize.Width / 2, this.ClientSize.Height - 80);
-        Image cim = Image.FromFile("c:\\aizawa.png");
+        Image cim = Image.FromFile("c:\\rakko.png");
 
         ct.Point = ctp;
         ct.Image = cim;
