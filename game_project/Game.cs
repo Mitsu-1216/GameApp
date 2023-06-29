@@ -22,7 +22,7 @@ class Game : Form
     }
     public Game()
     {
-        this.Text = "サンプル";
+        this.Text = "ゲーム";
         this.ClientSize = new Size(600, 300);
         this.DoubleBuffered = true;
         this.FormBorderStyle = FormBorderStyle.FixedSingle;
