@@ -72,7 +72,7 @@ class Game : Form
         ky = 7;
 
 
-        // ラッコ
+        // 下
         ct = new Cart();
 
         Point ctp = new Point(this.ClientSize.Width / 2, this.ClientSize.Height - 80);
