@@ -56,8 +56,8 @@ class Game : Form
         ubl.Point = ublp;
         ubl.Image = ubim;
 
-        ux = 5;
-        uy = 5;
+        ux = 10;
+        uy = 10;
 
         // くりまんじゅう
         kbl = new Ball();
